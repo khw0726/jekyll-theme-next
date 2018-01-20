@@ -1,8 +1,6 @@
 ----
-title: about
+title: Hyunwoo Kim
 layout: page
 ----
-
-# Hyunwoo Kim
 
 Hello. 
