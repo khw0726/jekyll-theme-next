@@ -116,11 +116,11 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
+  home: /projects
   #categories: /categories/
-  about: /about/
-  projects: /projects/
-  # tags: /tags/
+  about: /
+  #archive: /archive/
+  #tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -141,7 +141,6 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-  projects: archive
 
 
 
@@ -227,8 +226,8 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
-  Weibo: weibo
+  #Twitter: twitter
+  #Weibo: weibo
 
 
 # Sidebar Avatar
@@ -238,7 +237,7 @@ social_icons:
 
 # Table Of Contents in the Sidebar
 toc:
-  enable: true
+  enable: false
 
   # Automatically add list number to toc.
   number: true
@@ -264,7 +263,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  display: remove
   #display: always
   #display: hide
   #display: remove
@@ -310,9 +309,9 @@ auto_excerpt:
 # Post meta display settings
 post_meta:
   item_text: true
-  created_at: true
+  created_at: false
   updated_at: false
-  categories: true
+  categories: false
 
 # Post wordcount display settings
 post_wordcount:
